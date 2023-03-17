@@ -78,10 +78,8 @@ p{
     height: 300px;
 }
 
-.container-one .text-up .const__mem .mem__picture__2,
-.container-one .text-up .const__mem .mem__picture__3,
-.container-one .text-up .const__mem .mem__picture__4,
-.container-one .text-up .const__mem .mem__picture__5{
+.container-one .text-up .const__mem .mem__picture__n{
+
     display: none;
 }
 
@@ -105,3 +103,15 @@ p{
     display: none;
 }
 
+
+.container-one:hover > .text-up > .info > .txt{
+    color: red;
+}
+
+.container-one:hover > .text-up > .info > .first__p{
+    color: black;
+}
+
+.container-one .text__pictures:hover > .const__mem > .mem__picture__n {
+    display: inline-block;
+}
