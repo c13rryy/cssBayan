@@ -25,3 +25,84 @@ h1{
     color: black;
     font-weight: 900;
 }
+
+p{
+    font-size: 30px;
+    color: black;
+    font-weight: 500;
+}
+
+
+.container-one .text-up{
+    border-bottom: 2px solid black;
+    padding-bottom: 60px;
+}
+
+.container-one .text-up .info{
+    position: relative;
+}
+
+.container-one .text-up .info .close__up .open{
+    background-image: url(../images/plus.svg); 
+    background-size: 100%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    position: absolute;
+}
+
+
+
+.container-one .text-up .info .close__up .close{
+    background-image: url(../images/close.svg); 
+    background-size: 100%;
+    height: 50px;
+    width: 50px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+.container-one .text-up .info .close__up .close__1{
+    opacity: 1;
+}
+
+.container-one .text-up .info .close__up .open__1{
+    opacity: 0;
+}
+
+
+
+.container-one .text-up .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-one .text-up .const__mem{
+    display: flex;
+    justify-content: center;
+}
+
+.container-one .text-up .const__mem .mem__picture{
+    width: 300px;
+    height: 300px;
+}
+
+.container-one .text-up .const__mem .mem__picture__2,
+.container-one .text-up .const__mem .mem__picture__3,
+.container-one .text-up .const__mem .mem__picture__4,
+.container-one .text-up .const__mem .mem__picture__5{
+    display: none;
+}
+
+.container-one .text-up .const__mem .mem__picture .meme{
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
