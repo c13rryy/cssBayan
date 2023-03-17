@@ -38,37 +38,26 @@ p{
     padding-bottom: 60px;
 }
 
-.container-one .text-up .info{
-    position: relative;
-}
 
-.container-one .text-up .info .close__up .open{
+
+.container-one .text-up .info  .open{
     background-image: url(../images/plus.svg); 
     background-size: 100%;
     height: 50px;
     width: 50px;
     cursor: pointer;
-    position: absolute;
+    display: none;
 }
 
 
 
-.container-one .text-up .info .close__up .close{
+.container-one .text-up .info  .close{
     background-image: url(../images/close.svg); 
     background-size: 100%;
     height: 50px;
     width: 50px;
-    opacity: 0;
     cursor: pointer;
-}
-
-
-.container-one .text-up .info .close__up .close__1{
-    opacity: 1;
-}
-
-.container-one .text-up .info .close__up .open__1{
-    opacity: 0;
+    display: none;
 }
 
 
@@ -104,5 +93,15 @@ p{
 }
 
 
+.container-one:hover > .text-up > .info > .open {
+    display: inline-block;
+}
 
+.container-one:hover > .text-up > .info > .close__1 {
+    display: inline-block;
+}
+
+.container-one:hover > .text-up > .info > .open__1 {
+    display: none;
+}
 
